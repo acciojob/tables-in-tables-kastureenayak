@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
+	  <style>
+		  th,td,tr,table{
+			  border:1px solid black;
+			  text-align:center;
+		  }
+		  ul{
+			  text-align:center;
+			  
+		  }
+	  </style>
   </head>
   <body>
     <table style="width: 100%; height: 100%">
@@ -14,7 +24,7 @@
 				<table>
 					<thead>
 						<tr>
-							<th>Nested Table 2</th>
+							<th colspan="2">Nested Table 2</th>
 						</tr>
 						<tr>
 							<th>Column 1</th>
@@ -32,33 +42,42 @@
 			<td>
 				<table>
 					<thead>
-					<tr>
-						<th>
-							Nested Table 1
-						</th>
-					</tr>
+						<th>Nested Table 1</th>
 					</thead>
-					<tbody>
-						<tr>
-							<ui>
-								<li>List item</li>
-								<li>List item</li>
-								<li>List item</li>
-							</ui>
-						</tr>
-					</tbody>
+					<tr>
+						<td>
+							<ul>
+								<li>List item1</li>
+								<li>List item2</li>
+								<li>List item3</li>
+							</ul>
+						</td>
+					</tr>
 				</table>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<table>
-					hello0000000
+					<thead>
+						<th colspan="2">Nested Table 3</th>
+					</thead>
+						<tr>
+							<td>Nested Table</td>
+							<td>Demo Continued</td>
+						</tr>
 				</table>
 			</td>
 			<td>
 				<table>
-					hii111111111
+					<thead>
+						<tr>
+							<th>Nested Table 4</th>
+						</tr>
+					</thead>
+					<tr style="background-color:black;color:white">
+						<th>HTML</th>
+					</tr>
 				</table>
 			</td>
 		</tr>
